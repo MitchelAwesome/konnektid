@@ -1,0 +1,107 @@
+/*
+| Global variables
+*/
+
+$header-height: 58px;
+$logo-height : 28px;
+$branding-padding :  (($header-height - $logo-height)/2);
+
+@function centermargin($lgObj,$smObj){
+	@return (($lgObj - $smObj)/2) - 2;
+}
+
+
+.header-main{
+	position: relative;
+	overflow: hidden;
+	background-color:#61C5AA;
+	height:$header-height;
+	width:100%;
+	//border-bottom: 1px solid transparent;
+}
+
+.header-main__branding{
+	padding: $branding-padding 0;
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+
+	a{
+		display:block;
+		height: $logo-height;
+	}
+}
+
+.main-top
+{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	position: relative;
+	z-index:4;
+}
+
+.main-navigation{
+	background-color:#fff;
+	ul
+	{
+		display:block;
+		height:40px;
+		margin:0px;
+		padding:0px;
+
+		li
+		{
+			display:inline-block;
+
+			a
+			{
+				text-decoration: none;
+				display:block;
+				text-transform: uppercase;
+				height:40px;
+				line-height:40px;
+				margin-right: 25px;
+				font-weight:700;
+				font-size:15px;
+				color:#737373;
+				font-style:normal;
+			}
+		}
+	}
+}
+
+
+
+
+.nav-main{
+	position: relative;
+	overflow: hidden;
+	display:block;
+	right:0;
+
+	ul.nav-main__cta { 
+		position: absolute;
+		overflow: hidden;
+		top:0;
+		right:0;
+	}
+
+	ul.nav-main__cta li{
+		position: relative;
+		overflow: hidden;
+		display:inline-block;
+	}
+
+	ul.nav-main__cta li a{
+		@include clearbutton;
+		display: block;
+		padding:8px 15px;
+		color:#009CFF;
+		border:2px solid #009CFF;
+		margin: centermargin(80px,40px) 0;
+		margin-left:10px;
+		@include border-radius(2px);
+		font-weight:700;
+
+	}
+}
+
