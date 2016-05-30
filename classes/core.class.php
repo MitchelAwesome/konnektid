@@ -7,7 +7,7 @@ class Core{
 	private function __construct(){
 
 		$host = 'localhost';
-		$dbname = 'nanodesk';
+		$dbname = '';
 		$dbuser = 'root';
 		$dbpass = '';
 
