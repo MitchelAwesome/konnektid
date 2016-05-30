@@ -2,8 +2,8 @@
 <?php
 //ORCID API CREDENTIALS - replace these values with your API credentials
 ////////////////////////////////////////////////////////////////////////
-define('OAUTH_CLIENT_ID', 'APP-DYF2BEWUCJNL1I5A');//client ID
-define('OAUTH_CLIENT_SECRET', '919a04c1-9210-4cc1-9ca0-270e52c35b3a');//client secret
+define('OAUTH_CLIENT_ID', '');//client ID
+define('OAUTH_CLIENT_SECRET', '');//client secret
 define('OAUTH_REDIRECT_URI', 'http://localhost/orcidlogin/');//redirect URI
 //ORCID API ENDPOINTS
 ////////////////////////////////////////////////////////////////////////
