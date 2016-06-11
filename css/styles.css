@@ -79,7 +79,20 @@ html, body {
   height: 100%;
 }
 
-/* line 16, ../scss/_base.scss */
+/* line 14, ../scss/_base.scss */
+h1, h2, h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 18, ../scss/_base.scss */
+h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #737373;
+}
+
+/* line 26, ../scss/_base.scss */
 .no-gutter.row,
 .no-gutter.container,
 .no-gutter.container-fluid {
@@ -87,19 +100,19 @@ html, body {
   margin-right: 0;
 }
 
-/* line 21, ../scss/_base.scss */
+/* line 31, ../scss/_base.scss */
 .no-space {
   padding: 0 !important;
   margin: 0 !important;
 }
 
-/* line 26, ../scss/_base.scss */
+/* line 36, ../scss/_base.scss */
 .no-gutter > [class^="col-"] {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 33, ../scss/_base.scss */
+/* line 43, ../scss/_base.scss */
 .form-group input, .form-group select {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -107,7 +120,7 @@ html, body {
   border-radius: 0px;
 }
 
-/* line 39, ../scss/_base.scss */
+/* line 49, ../scss/_base.scss */
 .btn {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -116,11 +129,11 @@ html, body {
 }
 
 /* nanodesk blue*/
-/* line 54, ../scss/_base.scss */
+/* line 64, ../scss/_base.scss */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   color: #737373;
   font-style: normal;
   font-weight: normal;
@@ -130,7 +143,7 @@ body {
 /*-------
  Main Content divs
 -------*/
-/* line 71, ../scss/_base.scss */
+/* line 81, ../scss/_base.scss */
 .page-main {
   padding: 30px 0px;
   position: relative;
@@ -138,7 +151,7 @@ body {
   background: url("../images/gray-light.png") top left repeat #eeeeee;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 89, ../scss/_base.scss */
 .main-content {
   background-color: white !important;
 }
@@ -146,12 +159,14 @@ body {
 /*-------
   Block
 -------*/
-/* line 91, ../scss/_base.scss */
+/* line 101, ../scss/_base.scss */
 .block {
   background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-/* line 96, ../scss/_base.scss */
+/* line 108, ../scss/_base.scss */
 .block-header {
   margin: 0;
   padding: 15px 20px;
@@ -160,7 +175,7 @@ body {
   color: #737373;
   overflow: hidden;
 }
-/* line 109, ../scss/_base.scss */
+/* line 121, ../scss/_base.scss */
 .block-header h2 {
   padding: 0px;
   margin: 0px;
@@ -171,15 +186,208 @@ body {
   font-weight: bold;
 }
 
+/* line 142, ../scss/_base.scss */
+.block-inner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 147, ../scss/_base.scss */
+.block-upper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Konnektid buttons */
+/* line 154, ../scss/_base.scss */
+.btn-knd, .btn-knd-notnow, .btn-knd-no {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  height: 45px;
+  padding: 0 12px;
+  line-height: 45px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 700;
+  color: white;
+}
+
+/* line 167, ../scss/_base.scss */
+.btn-knd {
+  background-color: #44b999;
+}
+/* line 170, ../scss/_base.scss */
+.btn-knd:hover, .btn-knd:focus {
+  background-color: #3fac8f;
+}
+
+/* line 176, ../scss/_base.scss */
+.btn-knd-notnow {
+  background-color: #a9a9a9;
+}
+/* line 179, ../scss/_base.scss */
+.btn-knd-notnow:hover, .btn-knd-notnow:focus {
+  background-color: #878787;
+}
+
+/* line 186, ../scss/_base.scss */
+.btn-knd-no {
+  background-color: #B594C4;
+}
+/* line 189, ../scss/_base.scss */
+.btn-knd-no:hover, .btn-knd-no:focus {
+  background-color: #9668ac;
+}
+
+/* Konnektid classes */
+/* line 198, ../scss/_base.scss */
+.knd-list {
+  font-size: 17px;
+}
+/* line 200, ../scss/_base.scss */
+.knd-list h3 {
+  font-weight: 700;
+}
+/* line 205, ../scss/_base.scss */
+.knd-list .knd-list-item {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+/* line 211, ../scss/_base.scss */
+.knd-list .knd-user-img {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 222, ../scss/_base.scss */
+.knd-list .knd-user-title strong {
+  font-weight: 700;
+  color: #44b999;
+}
+/* line 229, ../scss/_base.scss */
+.knd-list .knd-user-skill {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 236, ../scss/_base.scss */
+.knd-list .knd-user-joined {
+  font-size: 14px;
+}
+/* line 241, ../scss/_base.scss */
+.knd-list .knd-button-group {
+  padding-top: 10px;
+}
+
+/* line 247, ../scss/_base.scss */
+.learn-input {
+  border: none;
+  min-height: 34px;
+  padding: 5px;
+  margin-bottom: 0;
+  width: 100%;
+  clear: both;
+  background: #eee;
+  -webkit-box-shadow: inset 0 1px 1px #D6CECE;
+  -moz-box-shadow: inset 0 1px 1px #D6CECE;
+  box-shadow: inset 0 1px 1px #D6CECE;
+}
+
+/*-------
+BADGES
+-------*/
+/* line 265, ../scss/_base.scss */
+.row-no-gutter {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* line 273, ../scss/_base.scss */
+.badges-list .badge-list-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+/* line 278, ../scss/_base.scss */
+.badges-list .badge-list-item:nth-of-type(odd) {
+  border-right: 1px solid #ddd;
+}
+/* line 284, ../scss/_base.scss */
+.badges-list .badge-item-status {
+  margin-top: 15px;
+}
+/* line 290, ../scss/_base.scss */
+.badges-list .status-complete h2 {
+  color: #3fac8f;
+}
+
+/*-------
+END Block
+-------*/
+/* line 302, ../scss/_base.scss */
+.skill-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  background-color: #3fac8f;
+}
+
+/* line 313, ../scss/_base.scss */
+.skill-list-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+/* line 318, ../scss/_base.scss */
+.skill-list-item .skill-title {
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 700;
+  height: 100%;
+}
+/* line 325, ../scss/_base.scss */
+.skill-list-item .skill-progress {
+  margin-bottom: 15px;
+}
+/* line 329, ../scss/_base.scss */
+.skill-list-item .skill-goals-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 336, ../scss/_base.scss */
+.teacher-rating {
+  padding: 15px;
+}
+
+/* line 341, ../scss/_base.scss */
+.teacher-user-ratings {
+  border-left: 1px solid #ddd;
+}
+
+/* line 346, ../scss/_base.scss */
+.teacher-user-rating {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
 /* Global container */
-/* line 134, ../scss/_base.scss */
+/* line 354, ../scss/_base.scss */
 .site-container {
   position: relative;
   overflow: hidden;
 }
 
 /* Global wrapper */
-/* line 140, ../scss/_base.scss */
+/* line 360, ../scss/_base.scss */
 .site-wrapper {
   position: relative;
   overflow: hidden;
@@ -188,58 +396,58 @@ body {
   max-width: 1030px;
 }
 
-/* line 148, ../scss/_base.scss */
+/* line 368, ../scss/_base.scss */
 .container {
   padding: 0;
   margin: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 148, ../scss/_base.scss */
+  /* line 368, ../scss/_base.scss */
   .container {
     padding: 0 15px;
     margin: 0 auto;
   }
 }
 
-/* line 161, ../scss/_base.scss */
+/* line 381, ../scss/_base.scss */
 .site-main-holder {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 161, ../scss/_base.scss */
+  /* line 381, ../scss/_base.scss */
   .site-main-holder {
     display: table;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 168, ../scss/_base.scss */
+  /* line 388, ../scss/_base.scss */
   .site-main__content-holder {
     display: table-cell;
     float: none;
   }
 }
 
-/* line 176, ../scss/_base.scss */
+/* line 396, ../scss/_base.scss */
 .site-main {
   background: url("../images/gray-light.png") top left repeat #eeeeee;
   padding: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 176, ../scss/_base.scss */
+  /* line 396, ../scss/_base.scss */
   .site-main {
     padding: 30px 0;
   }
 }
 
-/* line 186, ../scss/_base.scss */
+/* line 406, ../scss/_base.scss */
 .site-main__content {
   background-color: #fff;
   height: 100%;
   padding: 10px;
 }
 @media screen and (min-width: 768px) {
-  /* line 186, ../scss/_base.scss */
+  /* line 406, ../scss/_base.scss */
   .site-main__content {
     padding: 30px;
   }
@@ -250,23 +458,23 @@ body {
 |  Modules 
 |
 */
-/* line 203, ../scss/_base.scss */
+/* line 423, ../scss/_base.scss */
 .module {
   margin-bottom: 30px;
 }
 
-/* line 207, ../scss/_base.scss */
+/* line 427, ../scss/_base.scss */
 .module-block__header {
   padding: 10px;
   font-weight: 700;
 }
 
-/* line 212, ../scss/_base.scss */
+/* line 432, ../scss/_base.scss */
 .module-block__content {
   padding: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 212, ../scss/_base.scss */
+  /* line 432, ../scss/_base.scss */
   .module-block__content {
     padding: 20px;
   }
@@ -275,16 +483,16 @@ body {
 /*
 | module default styles
 */
-/* line 225, ../scss/_base.scss */
+/* line 445, ../scss/_base.scss */
 .module--default {
   background-color: white;
   border: 1px solid #dcdfe4;
 }
-/* line 229, ../scss/_base.scss */
+/* line 449, ../scss/_base.scss */
 .module--default .module-block__header {
   border-bottom: 1px solid #dcdfe4;
 }
-/* line 233, ../scss/_base.scss */
+/* line 453, ../scss/_base.scss */
 .module--default .module-block__content {
   padding: 20px;
 }
@@ -294,13 +502,13 @@ body {
 |  Footer 
 |
 */
-/* line 248, ../scss/_base.scss */
+/* line 468, ../scss/_base.scss */
 .footer-main {
   border-top: 1px solid #dcdfe4;
   background-color: #fff;
 }
 
-/* line 254, ../scss/_base.scss */
+/* line 474, ../scss/_base.scss */
 .footer-content {
   padding: 30px 0;
 }
@@ -308,7 +516,7 @@ body {
 /*
 | Aida lists
 */
-/* line 265, ../scss/_base.scss */
+/* line 485, ../scss/_base.scss */
 .aida-list .aida-item {
   position: relative;
   overflow: hidden;
@@ -317,7 +525,7 @@ body {
   padding: 15px 0;
 }
 
-/* line 276, ../scss/_base.scss */
+/* line 496, ../scss/_base.scss */
 .aida-controls {
   padding: 15px;
 }

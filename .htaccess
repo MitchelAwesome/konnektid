@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 
 RewriteEngine On
-RewriteBase /github/nanodesk/
+RewriteBase /github/konnektid/
 
 ## If the request is for a valid directory
 RewriteCond %{REQUEST_FILENAME} -d [OR]
@@ -23,7 +23,7 @@ RewriteRule ^ - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ http://localhost/github/nanodesk/$1/ [R=301,L]
+RewriteRule ^(.*)$ $1/ [R=301,L]
 
 
 ##
