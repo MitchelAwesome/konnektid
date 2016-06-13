@@ -3,6 +3,192 @@
 	include('snippets/header.php'); 
 
 ?>
+
+<!-- //modals -->
+<div class="knd-modal"><!--table-->
+	<div class="knd-modal-holder">
+		<div class="container  animated rubberBand">
+			<div class="row">
+				<div class="knd-modal-header col-md-6 col-md-offset-3">
+				
+						<span class="knd-modal-title">Skill Badge</span>
+						<span class="hidden knd-modal-close knd-modal-close-btn"><i class="glyphicon glyphicon-remove"></i></span>
+					
+				</div>
+
+				<div class="knd-modal-body col-md-6 col-md-offset-3">
+					<div class="row">
+
+						<div class="col-md-12 verify-tab verify-1">
+							<br>
+							<h2 class="text-center badge-bg-change">CONGRATULATIONS!</h2>
+							<p class="text-center">You earned a new skill badge!</p>
+							<br>
+							<div class="text-center">
+								<div style="background-image:url(http://localhost/github/konnektid/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
+								</div>
+							</div>
+							<br>
+							<p class="text-center">Your Teacher (Mitchel) verified that you learned the skill "Dutch"! <br> Therefore, you receive the "Dutch" Skill Badge!</p>
+							<p class="text-center">The Skill badge is now visible on your profile!</p>
+							
+							<br>
+							<div class="text-center">
+								<a href="#" class="knd-modal-close verify-2 btn btn-md btn-primary btn-knd"><i class="glyphicon glyphicon-ok"></i> OK!</a>
+							</div>
+							<br>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					
+				</div>
+
+				
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+<!-- //modals -->
+<div class="knd-modal hidden"><!--table-->
+	<div class="knd-modal-holder">
+		<div class="container">
+			<div class="row">
+				<div class="knd-modal-header col-md-6 col-md-offset-3">
+				
+						<span class="knd-modal-title">Skill Badge</span>
+						<span class="hidden knd-modal-close knd-modal-close-btn"><i class="glyphicon glyphicon-remove"></i></span>
+					
+				</div>
+
+				<div class="knd-modal-body col-md-6 col-md-offset-3">
+					<div class="row">
+
+						<div class="col-md-12 verify-tab verify-1">
+							<br>
+							<h2 class="text-center">Verify learning efforts</h2>
+							<br>
+							<div class="text-center">
+								<div style="background-image:url(http://localhost/github/konnektid/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
+								</div>
+							</div>
+							<p class="text-center">Can you verify that Mitchel learned the skill "Dutch" from you?</p>
+							<br>
+							<br>
+							<div class="text-center">
+								<a href="#" class="verify-btn verify-2 btn btn-md btn-primary btn-knd"><i class="glyphicon glyphicon-ok"></i> VERIFY</a>
+							</div>
+						</div>
+
+						<div class="col-md-12 verify-tab verify-3" style="display:none;">
+							<div class="text-center">
+								<i class="badge-bg-change glyphicon glyphicon-heart-empty" style="font-size:80px;"></i>
+							</div>
+							
+							<h2 class="text-center">AWESOME!</h2>
+							<br>
+							<p class="text-center">Thanks to you Mitchel leared the skill "Dutch" and earned a new Skill Badge!</p>
+							<br>
+							<div class="text-center">
+								<a href="#" class="knd-modal-close btn btn-md btn-primary btn-knd">Close</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					
+				</div>
+
+				
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+<!-- //modals -->
+<div class="knd-modal hidden"><!--table-->
+	<div class="knd-modal-holder">
+		<div class="container">
+			<div class="row">
+				<div class="knd-modal-header col-md-6 col-md-offset-3">
+				
+						<span class="knd-modal-title">Teacher Rating</span>
+						<span class="hidden knd-modal-close knd-modal-close-btn"><i class="glyphicon glyphicon-remove"></i></span>
+					
+				</div>
+
+				<div class="knd-modal-body col-md-6 col-md-offset-3">
+					<div class="row">
+
+						<div class="col-md-12 verify-tab verify-1">
+							<br>
+							<h2 class="text-center">Was Mitchel your Teacher?</h2>
+							<br>
+							<p class="text-center">Can you Verify that Mitchel teached you Photoshop?</p>
+							<br>
+							<br>
+							<div class="text-center">
+								<a href="#" class="verify-btn verify-2 btn btn-md btn-primary btn-knd"><i class="glyphicon glyphicon-ok"></i> VERIFY</a>
+							</div>
+						</div>
+
+						<div class="col-md-12 verify-tab verify-2" style="display:none;">
+							<br>
+							<h2 class="text-center">Awesome! Rate Mitchel's Teaching skills!</h2>
+							<br>
+							<p class="text-center">How well did Mitchel Teach you Photoshop?</p>
+							<br>
+							<div class="row">
+								<div class="col-md-6 col-md-offset-2">
+									<div style="margin-top:15px;" id="slider-range"></div>
+								</div>
+								<div class="col-md-2 text-center" style="vertical-align:top;">
+									<span style="font-size:35px;font-weight:700;" id="slider-range-value"></span><span style="font-size:35px;font-weight:700;">/10</span>
+								</div>
+							</div>
+							<br>	
+							<p class="text-center">Your rating will be shared with the Konnektid Community!</p>
+							<br>
+							<br>
+							<div class="text-center">
+								<a href="#" class="verify-btn verify-2 btn btn-md btn-primary btn-knd"><i class="glyphicon glyphicon-star"></i> Place Rating</a>
+							</div>
+						</div>
+
+						<div class="col-md-12 verify-tab verify-3" style="display:none;">
+							<div class="text-center">
+								<i class="badge-bg-change glyphicon glyphicon-heart-empty" style="font-size:80px;"></i>
+							</div>
+							
+							<h2 class="text-center">You are AWESOME!</h2>
+							<br>
+							<p class="text-center">Thank you for your rating!</p>
+							<p class="text-center">Your rating is placed on Mitchel's Profile!</p>
+							<br>
+							<div class="text-center">
+								<a href="#" class="knd-modal-close btn btn-md btn-primary btn-knd">Close</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					
+				</div>
+
+				
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
 <!--start page-->
 <div class="page-main">
 
@@ -250,7 +436,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row hidden">
 					<div class="col-md-12">
 						<div class="block">
 							<div class="block-header">
@@ -367,7 +553,7 @@
 					<div class="col-md-12">
 						<div class="block">
 							<div class="block-header">
-								<h2>TEACHER Rating</h2>
+								<h2>TEACHER RATINGS</h2>
 							</div>
 							<div class="block-content">
 								<div class="badges-list">
@@ -378,7 +564,7 @@
 												<div class="row ">
 													<div class="col-xs-12 text-center">
 														AVERAGE<br>
-														<span style="font-size:50px; font-weight:700;">7.5</span><br>
+														<span id="avg-rating" style="font-size:50px; font-weight:700;">7.5</span><br>
 														4 ratings
 														<br><br>
 														<a href="#"><small>More Details</small></a>
@@ -389,11 +575,19 @@
 										<div class="col-md-8 teacher-user-ratings">
 											
 												<div class="row">
-													<?php for ($i=0; $i < 4; $i++): ?>
+													
 													<div class="col-md-12 teacher-user-rating">
-														<strong>7.5</strong> rating by Loes for <strong>Photoshop</strong>
+														Rated <strong><span id="your-rating">7</span></strong> by <strong>You</strong> for <strong>Photoshop</strong>
 													</div>	
-													<?php endfor; ?>				
+													<div class="col-md-12 teacher-user-rating">
+														Rated <strong>9</strong> by <strong>Aschwin</strong> for <strong>PHP</strong>
+													</div>
+													<div class="col-md-12 teacher-user-rating">
+														Rated <strong>8</strong> by <strong>Mike</strong> for <strong>PHP</strong>
+													</div>		
+													<div class="col-md-12 teacher-user-rating">
+														Rated <strong>7</strong> by <strong>Loes</strong> for <strong>Photoshop</strong>
+													</div>	
 												</div>	
 										</div>
 									</div>

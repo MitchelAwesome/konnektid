@@ -15,9 +15,19 @@
     <link rel="stylesheet" href="<?php echo ROOT; ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo ROOT; ?>/css/main.css">
     <link rel="stylesheet" href="<?php echo ROOT; ?>/css/styles.css">
+    <link rel="stylesheet" href="<?php echo ROOT; ?>/css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
 
-    <script src="<?php echo ROOT; ?>/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="<?php echo ROOT; ?>/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="<?php echo ROOT; ?>/js/main.js"></script>
+
+
+    <!-- In <head> -->
+    <link href="<?php echo ROOT; ?>/css/nouislider.min.css" rel="stylesheet">
+
+    <!-- In <body> -->
+    <script src="<?php echo ROOT; ?>/js/nouislider.min.js"></script>
+
 
     <!-- add after -->
     <?php
