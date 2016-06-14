@@ -45,7 +45,7 @@
 							<div class="knd-list-item">
 								<div class="row">
 									<div class="col-xs-4 col-md-2">
-										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar.jpg);">
+										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar3.png);">
 											
 										</div>
 									</div>
@@ -68,32 +68,11 @@
 								</div>
 							</div>
 
-							<!--JUST JOINED-->
-							<div class="knd-list-item">
-								<div class="row">
-									<div class="col-xs-4 col-md-2">
-										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar.jpg);">
-											
-										</div>
-									</div>
-									<div class="col-xs-8 col-md-10">
-										<div class="knd-user-title">
-											<strong>Jacqueline</strong> <span>joined Konnektid</span>
-										</div>
-										<div class="knd-user-joined">
-											&lt;1 km from you
-										</div>
-										
-									</div>
-								</div>
-
-							</div>
-
 							<!--WANTS TO LEARN-->
 							<div class="knd-list-item">
 								<div class="row">
 									<div class="col-xs-4 col-md-2">
-										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar.jpg);">
+										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar3.png);">
 											
 										</div>
 									</div>
@@ -116,6 +95,31 @@
 									</div>
 								</div>
 							</div>
+							
+							<!--JUST JOINED-->
+							<div class="knd-list-item">
+								<div class="row">
+									<div class="col-xs-4 col-md-2">
+										<div class="knd-user-img" style="background-image:url(<?php echo ROOT?>/images/users/avatar3.png);">
+											
+										</div>
+									</div>
+									<div class="col-xs-8 col-md-10">
+										<div class="knd-user-title">
+											<strong>Jacqueline</strong> <span>joined Konnektid</span>
+										</div>
+										<div class="knd-user-joined">
+											&lt;1 km from you
+										</div>
+										
+									</div>
+								</div>
+
+							</div>
+
+
+
+
 							<?php //endfor; ?>
 						</div><!-- // knd-list-->
 

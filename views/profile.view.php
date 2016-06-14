@@ -5,7 +5,7 @@
 ?>
 
 <!-- //modals -->
-<div class="knd-modal"><!--table-->
+<div class="knd-modal <?php echo ($_GET['demo'] == 'getbadge') ? "":"hidden"; ?>"><!--table-->
 	<div class="knd-modal-holder">
 		<div class="container  animated rubberBand">
 			<div class="row">
@@ -25,7 +25,7 @@
 							<p class="text-center">You earned a new skill badge!</p>
 							<br>
 							<div class="text-center">
-								<div style="background-image:url(http://localhost/github/konnektid/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
+								<div style="background-image:url(<?php echo ROOT?>/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
 								</div>
 							</div>
 							<br>
@@ -54,7 +54,7 @@
 </div>
 
 <!-- //modals -->
-<div class="knd-modal hidden"><!--table-->
+<div class="knd-modal <?php echo ($_GET['demo'] == 'verifybadge') ? "":"hidden"; ?>"><!--table-->
 	<div class="knd-modal-holder">
 		<div class="container">
 			<div class="row">
@@ -73,7 +73,7 @@
 							<h2 class="text-center">Verify learning efforts</h2>
 							<br>
 							<div class="text-center">
-								<div style="background-image:url(http://localhost/github/konnektid/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
+								<div style="background-image:url(<?php echo ROOT?>/images/assets/dutch.jpg); background-size:cover; background-repeat:no-repeat; width:80px; height:80px; background-position:50% 50%; border-radius:10px; display:inline-block;">
 								</div>
 							</div>
 							<p class="text-center">Can you verify that Mitchel learned the skill "Dutch" from you?</p>
@@ -112,7 +112,7 @@
 </div>
 
 <!-- //modals -->
-<div class="knd-modal hidden"><!--table-->
+<div class="knd-modal <?php echo ($_GET['demo'] == 'teacherrating') ? "":"hidden"; ?>"><!--table-->
 	<div class="knd-modal-holder">
 		<div class="container">
 			<div class="row">
